@@ -1,0 +1,26 @@
+# Internal
+__*
+internal
+deprecated
+yarn-*
+
+# Modules
+node_modules
+/coverage
+
+# Build
+lib
+
+# Cypress
+cypress/fixtures
+cypress/screenshots
+cypress/videos
+packages/**/cypress
+storybook-static
+
+# Editors
+.idea
+.vscode
+
+# OS
+.DS_*

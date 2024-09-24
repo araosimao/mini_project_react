@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "es6",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitThis": false,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "types": ["node", "jest"]
+  },
+  "include": ["global.d.ts", "src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
